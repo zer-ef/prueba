@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HolaControler {
-    @GetMapping("")
+    @GetMapping("/hola-mundo")
     String index(){
         return "index";
     }
